@@ -1,0 +1,11 @@
+# Note: this environment will be merged with the pangeo-notebook/environment.yml
+# by conda-lock. Only put things here that are not already in pangeo-notebook
+name: pangeo
+channels:
+ - conda-forge
+ - nodefaults
+dependencies:
+ - tensorflow>=2.9.1=*cuda112*
+ - keras-cv
+ - jax
+ - flax

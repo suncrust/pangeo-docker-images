@@ -1,0 +1,2 @@
+jupyterlab-s3-browser>=0.12
+pypotree
